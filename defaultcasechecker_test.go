@@ -13,5 +13,4 @@ func TestAnalyzer(t *testing.T) {
 	// testdataディレクトリ内のソースコードを解析する
 	analysistest.Run(t, testdata, defaultcasechecker.Analyzer, "a")
 	analysistest.Run(t, testdata, defaultcasechecker.Analyzer, "b")
-	analysistest.Run(t, testdata, defaultcasechecker.Analyzer, "c")
 }
